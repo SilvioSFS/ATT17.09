@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SG Cursos</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <nav>
+                <ul>
+                        <li>Mundo SG</li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+
+    <section class="hero">
+        <div class="container">
+            <h1>Bem-vindo ao nosso site de aprendizado</h1>
+            <p>Aonde vc terá o conhecimento necessario para ser álguem no mundo</p>
+            <button class="cta-button"> <a href="/login">Área de Login</a></button>
+        </div>
+    </section>
+
+    <section class="contatos">
+        <div class="container">
+            <h2>Contatos</h2>
+            <div class="social">
+                <a href="#" class="social-icon">
+                    <img src="https://upload.wikimedia.org/wikipedia/commons/5/58/Instagram-Icon.png" alt="Instagram Logo" class="social-img"> Instagram
+                </a>
+                <a href="#" class="social-icon">
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRoSA6eFWZNS5n9XvBGrPiWzgD0-WDRYy9Onw&s" alt="WhatsApp Logo" class="social-img"> WhatsApp
+                </a>
+            </div>
+            <div class="info">
+                <p><strong>Telefones:</strong> 71 0506-2024</p>
+                <p><strong>Email:</strong> SGcursos@email.com</p>
+            </div>
+        </div>
+    </section>
+</body>
+<style>
+    * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background:url(https://wallpapers.com/images/hd/batman-with-villains-logo-4k-7yl2ihs7s2kfyh4y.jpg); 
+    color: white; 
+}
+
+header {
+    background-color: #333; 
+    padding: 20px 0;
+    text-align: center;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 16px;
+}
+
+.hero {
+    padding: 80px 20px;
+    text-align: center;
+    color: white;
+}
+
+.hero h1 {
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+.hero p {
+    font-size: 18px;
+    margin-bottom: 40px;
+}
+
+.cta-button {
+    padding: 15px 30px;
+    font-size: 18px;
+    background-color: #333;
+    color: white;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+.cta-button a{
+    text-decoration: none;
+}
+.cta-button:hover {
+    background-color: #555;
+}
+
+.container {
+    width: 90%;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.contatos {
+    padding: 40px 20px;
+    text-align: center;
+    margin-top: 40px;
+}
+
+.contatos h2 {
+    font-size: 28px;
+    margin-bottom: 30px;
+    color: white;
+}
+
+.social {
+    margin-bottom: 20px;
+}
+
+.social-icon {
+    display: inline-block;
+    margin: 0 15px;
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+    vertical-align: middle;
+}
+
+.social-img {
+    width: 30px; 
+    height: 30px; 
+    margin-right: 10px;
+    vertical-align: middle;
+}
+
+.info {
+    font-size: 18px;
+    color: white;
+}
+
+.info p {
+    margin: 10px 0;
+}
+</style>
+</html>
